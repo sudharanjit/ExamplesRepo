@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.wellsfargo.selenium_automation.IndeedTestDo1">
+      <class name="com.wellsfargo.selenium_automation.Amazon">
         <methods>
+          <include name="TestMethod" invocation-numbers="0 1 2"/>
           <include name="SetUp"/>
-          <include name="JobSearchTest" invocation-numbers="0 1 2"/>
-          <include name="afterClass"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.wellsfargo.selenium_automation.IndeedTestDo1 -->
+      </class> <!-- com.wellsfargo.selenium_automation.Amazon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
